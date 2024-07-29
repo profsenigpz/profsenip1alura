@@ -1,0 +1,80 @@
+body {
+  color: rgb(84, 82, 82);
+  background: rgb(246, 28, 68);
+  margin: 0px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 100px;
+}
+
+header {
+  border-bottom: solid 2px rgb(233, 246, 91);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(249, 152, 72);
+}
+
+.chamada {
+  background: rgb(244, 188, 208);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  height: 100px;
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.categoria-videos img {
+  opacity: 0.5;
+  height: 150px;
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  border: 1px solid white;
+}
+.categoria h2 {
+  color: rgb(245, 201, 118);
+}
+/* Estilos para a barra de rolagem */
+.categoria-videos::-webkit-scrollbar {
+  height: 10px; /* Altura da barra de rolagem */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+.categoria-videos::-webkit-scrollbar-track {
+  background: rgb(245, 201, 118); /* Cor do gap */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+.categoria-videos::-webkit-scrollbar-thumb {
+  background: rgb(84, 82, 82); /* Cor da barra de rolagem */
+  border-radius: 10px; /* Bordas arredondadas */
+  border: 2px solid rgb(246, 28, 68); /* Adiciona um espaço ao redor da barra */
+}
